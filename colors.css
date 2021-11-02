@@ -1,0 +1,31 @@
+/* Priority 2 univsersal CSS code */
+
+body {
+    color: white;
+    background-color: #55414A;
+}
+
+header {
+    background-color: #55414A;
+    border-color: #BCA5AF;
+}
+
+header a:link {
+    color: white;
+}
+  
+header a:visited {
+    color: white;
+}
+  
+header a:hover {
+    color: whitesmoke;
+}
+  
+header a:active {
+    color: white;
+}
+
+.project-boxes {
+    background-color: #E94CA2;
+}

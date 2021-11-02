@@ -1,0 +1,13 @@
+body {
+    margin-top: 0px;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-boxes {
+    margin: 5px;
+}
