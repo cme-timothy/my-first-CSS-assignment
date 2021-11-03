@@ -1,0 +1,26 @@
+/* code in all pages */
+aside {
+    border-radius: 10% 10% 0 0;
+    margin: 10px -8px -8px -8px;
+}
+  
+h4 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+  
+.projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+  
+.project-boxes {
+    margin: 5px;
+}
+
+/* Code only in experience */
+h2 {
+    margin-top: 70px;
+}

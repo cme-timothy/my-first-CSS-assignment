@@ -1,5 +1,3 @@
-/* Priority 2 univsersal CSS code */
-
 body {
     color: white;
     background-color: #55414A;
@@ -24,6 +22,10 @@ header a:hover {
   
 header a:active {
     color: white;
+}
+
+aside {
+    background-color: #B77F00;
 }
 
 .project-boxes {

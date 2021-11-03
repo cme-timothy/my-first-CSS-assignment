@@ -23,15 +23,11 @@
     <main>
         <h2>Contact</h2>
         <form action="">
-            <div>
-                <label class="label-for-form" for="name">E-mail:</label>
-                <input type="text" name="name" placeholder="youremail@email.xx" required>
-            </div>
-            <div>
-                <label class="label-for-form" for="textarea">Message:</label>
-                <textarea name="textarea" cols="42" rows="15" minlength=4 required></textarea>
-                <button type="submit">Submit</button>
-            </div>
+            <label class="label-for-form" for="email">Email</label>
+            <input class="email-input" type="text" name="email" placeholder="characters@characters.domain" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+            <label class="label-for-form" for="textarea">Message</label>
+            <textarea name="textarea" cols="42" rows="15" minlength=10 required></textarea>
+            <button type="submit">Submit</button>
         </form>
     </main>
     <footer>

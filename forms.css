@@ -1,13 +1,17 @@
-body {
-    margin-top: 0px;
+.label-for-form {
+    display: block;
+    margin: 5px 0;
 }
 
-.projects {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.email-input {
+    display: block;
 }
 
-.project-boxes {
-    margin: 5px;
+textarea {
+    display: block;
+}
+
+button {
+    display: block;
+    margin: 5px 0;
 }
