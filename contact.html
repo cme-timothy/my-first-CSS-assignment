@@ -7,6 +7,7 @@
     <title>Contact page</title>
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="typography.css">
     <link rel="stylesheet" href="forms.css">
     <link rel="stylesheet" href="colors.css">
@@ -24,14 +25,19 @@
         <h2>Contact</h2>
         <form action="">
             <label class="label-for-form" for="email">Email</label>
-            <input class="email-input" type="text" name="email" placeholder="characters@characters.domain" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+            <input class="email-input" type="text" name="email" placeholder="something@something.domain" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
             <label class="label-for-form" for="textarea">Message</label>
             <textarea name="textarea" cols="42" rows="15" minlength=10 required></textarea>
             <button type="submit">Submit</button>
         </form>
     </main>
     <footer>
-
+        <ul class="social-media-position">
+            <li><a href=""><img class="social-media-image" src="assets/social media/facebook-square-brands.svg" alt="A social media icon"></a></li>
+            <li><a href=""><img class="social-media-image" src="assets/social media/instagram-square-brands.svg" alt="A social media icon"></a></li>
+            <li><a href=""><img class="social-media-image" src="assets/social media/facebook-square-brands.svg" alt="A social media icon"></a></li>
+        </ul>
+        <span>Timothy Magee. All Rights Reserved.</span>
     </footer>
 </body>
 </html>

@@ -1,6 +1,25 @@
-/* code in more than one page */
- 
+
 /* code only in contact */
 h2 {
     margin-top: 70px;
+}
+
+@media (min-width: 700px) {
+    html, body {
+        height: 100%;
+    }
+
+    main {
+        flex: 1 0 auto;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer {
+        flex-shrink: 0;
+        margin-bottom: 0;
+    }
 }

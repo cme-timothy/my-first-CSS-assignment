@@ -35,3 +35,23 @@ aside {
 .project-boxes {
     background-color: #7D4E00;
 }
+
+footer {
+    background-color: #BCA5AF;
+}
+
+footer a:link {
+    color: white;
+}
+  
+footer a:visited {
+    color: white;
+}
+  
+footer a:hover {
+    color: whitesmoke;
+}
+  
+footer a:active {
+    color: white;
+}
