@@ -1,0 +1,109 @@
+aside {
+    border-radius: 10% 10% 0 0;
+    margin: 0 -8px -8px -8px;
+  }
+  
+  .project-overlay {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    padding-bottom: 75%;
+    border-radius: 10% 10% 0 0;
+  }
+  
+  h4 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  
+  .projects {
+    display: grid;
+    grid-template-columns: 20px 1fr 20px;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 15px;
+  }
+  
+  .project-boxes:nth-child(1) {
+    grid-column-start: 2;
+  }
+  
+  .project-boxes:nth-child(2) {
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
+  
+  .project-boxes:nth-child(3) {
+    grid-column-start: 2;
+    grid-row-start: 3;
+  }
+  
+  .project-boxes:nth-child(4) {
+    grid-column-start: 2;
+    grid-row-start: 4; 
+  }
+  
+  .project-boxes>p {
+    text-align: center;
+  }
+  
+  .project-pictures {
+    border-radius: 1% 1% 1% 1%;
+    width: 100%;
+  }
+  
+  @media (min-width: 500px) {
+    .projects {
+      display: grid;
+      grid-template-columns: 20px repeat(2, 1fr) 20px;
+      grid-template-rows: repeat(2, 1fr);
+      gap: 15px;
+    }
+  
+    .project-boxes:nth-child(2) {
+      grid-column-start: 3;
+      grid-row-start: 1;
+    }
+  
+    .project-boxes:nth-child(3) {
+      grid-column-start: 2;
+      grid-row-start: 2;
+    }
+  
+    .project-boxes:nth-child(4) {
+      grid-column-start: 3;
+      grid-row-start: 2; 
+    }
+  }
+  
+  @media (min-width: 700px) {
+    aside {
+      border-radius: 0% 0% 0 0;
+      margin: 0 -8px -8px -8px;
+    }
+  
+    .projects {
+      display: grid;
+      grid-template-columns: 20px repeat(4, 1fr) 20px;
+      grid-template-rows: 1fr;
+      gap: 10px;
+    }
+  
+    .project-boxes:nth-child(2) {
+      grid-column-start: 3;
+    }
+  
+    .project-boxes:nth-child(3) {
+      grid-column-start: 4;
+      grid-row-start: 1;
+    }
+  
+    .project-boxes:nth-child(4) {
+      grid-column-start: 5;
+      grid-row-start: 1;
+    }
+    
+    .project-overlay {
+      display: none;
+    }
+  }

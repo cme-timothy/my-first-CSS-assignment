@@ -1,11 +1,11 @@
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     position: fixed;
     top: 0;
-    right: 8px;
-    left: 8px;
+    right: 0px;
+    left: 0px;
     border-bottom: 1px solid;
 }
 
