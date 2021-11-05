@@ -1,9 +1,9 @@
-
 /* code only in contact */
 h2 {
     margin-top: 70px;
 }
 
+/* footer positioned at the bottom off the viewable screen */
 @media (min-width: 700px) {
     html, body {
         height: 100%;

@@ -40,6 +40,10 @@ footer {
     background-color: #BCA5AF;
 }
 
+footer img {
+    filter: white;
+}
+
 footer a:link {
     color: white;
 }
