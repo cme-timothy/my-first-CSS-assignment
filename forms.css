@@ -5,6 +5,7 @@
 
 .email-input {
     display: block;
+    width: 200px;
 }
 
 textarea {

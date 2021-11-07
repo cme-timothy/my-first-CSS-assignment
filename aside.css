@@ -68,7 +68,7 @@ h4 {
   }
 }
   
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
   aside {
     margin: 100px 8px 0 8px;
     max-width: 570px;
