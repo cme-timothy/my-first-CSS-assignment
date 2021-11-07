@@ -39,4 +39,11 @@ footer span {
   padding-bottom: 20px;
   margin-bottom: 16px;
 }
+
+@media (min-width: 700px) {
+  footer {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
   

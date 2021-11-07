@@ -1,4 +1,11 @@
 /* code only in index */
+@media (min-width: 1000px) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+  }
+}
+
 main {
   display: flex;
   flex-direction: column;
