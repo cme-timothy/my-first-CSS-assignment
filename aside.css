@@ -70,10 +70,15 @@ h4 {
   
 @media (min-width: 1000px) {
   aside {
-    margin: 50px 8px 0 8px;
+    margin: 100px 8px 0 8px;
+    max-width: 570px;
   }
 
   h4 {
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
     padding: 0;
   }
 
