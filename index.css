@@ -1,11 +1,13 @@
 /* code only in index */
-h2 {
-  text-align: right;
-  margin-top: 70px;
+main {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 50px auto 0px auto;
 }
 
-.picture-space {
-  text-align: center;
+h2 {
+  align-self: flex-end;
 }
 
 .picture-of-me {
@@ -13,4 +15,6 @@ h2 {
   width: 100%;
   max-width: 300px;
   height: auto;
+  border-top: solid 2px #BCA5AF;
+  border-bottom: solid 2px #BCA5AF;
 }
