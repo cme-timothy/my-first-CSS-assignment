@@ -3,6 +3,10 @@ h2 {
     margin-top: 70px;
 }
 
+.picture-space p {
+    max-width: 585px;
+}
+
 .experience-pictures {
     border-radius: 1% 1% 1% 1%;
     width: 100%;
