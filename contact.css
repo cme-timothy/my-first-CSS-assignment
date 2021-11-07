@@ -1,25 +1,21 @@
 /* code only in contact */
-h2 {
-    margin-top: 70px;
-}
-
 /* footer positioned at the bottom off the viewable screen */
-@media (min-width: 700px) {
     html, body {
         height: 100%;
     }
 
-    main {
-        flex: 1 0 auto;
-    }
-    
     body {
         display: flex;
         flex-direction: column;
+    }
+
+    main {
+        flex: 1 0 auto;
+        width: 358px;
+        margin-top: 50px;
     }
     
     footer {
         flex-shrink: 0;
         margin-bottom: 0;
     }
-}
