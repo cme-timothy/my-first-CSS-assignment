@@ -134,6 +134,8 @@ aside a:active {
 
   .projects {
     grid-template-rows: 20px repeat(2, 1fr) 20px;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
     border-radius: 5px 5px 5px 5px;
   }
 

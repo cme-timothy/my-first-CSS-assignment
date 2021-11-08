@@ -81,5 +81,7 @@ footer a:active {
 
   .projects {
     background-color: #b77f00;
+    border-top-color: #bca5af;
+    border-bottom-color: #bca5af;
   }
 }
