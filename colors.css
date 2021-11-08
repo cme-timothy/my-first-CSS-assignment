@@ -24,12 +24,29 @@ header a:active {
     color: white;
 }
 
+.picture-of-me {
+    border-top: #BCA5AF;
+    border-bottom: #BCA5AF;
+}
+
 aside {
     background-color: #B77F00;
 }
 
-.project-overlay {
-    background-color: #B77F00;
+aside a:link {
+    color: white;
+}
+  
+aside a:visited {
+    color: white;
+}
+  
+aside a:hover {
+    color: whitesmoke;
+}
+  
+aside a:active {
+    color: white;
 }
 
 .project-boxes {
@@ -38,10 +55,6 @@ aside {
 
 footer {
     background-color: #BCA5AF;
-}
-
-footer img {
-    filter: white;
 }
 
 footer a:link {
@@ -60,6 +73,7 @@ footer a:active {
     color: white;
 }
 
+/* for wider displays */
 @media (min-width: 800px) {
     aside {
       background-color: transparent;

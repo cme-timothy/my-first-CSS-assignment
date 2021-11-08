@@ -19,6 +19,7 @@ footer {
     margin-bottom: 0;
 }
 
+/* for wider displays */
 @media (min-width: 800px) {
     main {
         display: flex;

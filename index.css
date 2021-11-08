@@ -12,14 +12,16 @@ h2 {
   align-self: flex-end;
 }
 
+/* responsive img */
 .picture-of-me {
+  border-top: solid 2px;
+  border-bottom: solid 2px;
   border-radius: 50% 1% 50% 1%;
   width: 100%;
   height: auto;
-  border-top: solid 2px #BCA5AF;
-  border-bottom: solid 2px #BCA5AF;
 }
 
+/* for wider displays */
 @media (min-width: 800px) {
   body {
     display: grid;

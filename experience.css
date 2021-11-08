@@ -17,17 +17,19 @@ h2 {
 }
   
 .picture-space p {
-  max-width: 585px;
   text-align: center;
+  max-width: 585px;
 }
 
+/* responsive img */
 .experience-pictures {
   border-radius: 1% 1% 1% 1%;
   width: 100%;
-  max-width: 300px;
   height: auto;
+  max-width: 400px;
 }
 
+/* for wider displays */
 @media (min-width: 800px) {
   main {
     align-items: flex-start;
