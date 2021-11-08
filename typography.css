@@ -1,7 +1,19 @@
 body {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 h1 {
-    font-size: 20px;
+  font-size: 1.25rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+h3 {
+  font-size: 1.125rem;
+}
+
+h4 {
+  font-size: 1.25rem;
 }

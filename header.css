@@ -1,43 +1,43 @@
 header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    border-bottom: 1px solid;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid;
 }
 
 header ul {
-    list-style-type: none;
-    padding-inline-start: 0;
+  list-style-type: none;
+  padding-inline-start: 0;
 }
 
 header li {
-    display: inline;
-    padding: 0 5px 0 5px;
+  display: inline;
+  padding: 0 5px 0 5px;
 }
 
 header a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
-  
+
 header a:visited {
-    text-decoration: none;
+  text-decoration: none;
 }
-  
+
 header a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
-  
+
 header a:active {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* for wider displays */
 @media (min-width: 800px) {
-    header {
-        flex-direction: column;
-    }
+  header {
+    flex-direction: column;
+  }
 }

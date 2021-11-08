@@ -1,4 +1,3 @@
-/* Code only in experience */
 main {
   display: flex;
   flex-direction: column;
@@ -15,7 +14,7 @@ h2 {
   flex-direction: column;
   align-items: center;
 }
-  
+
 .picture-space p {
   text-align: center;
   max-width: 585px;
@@ -39,5 +38,4 @@ h2 {
   .picture-space:nth-child(3) {
     align-self: flex-end;
   }
-
 }

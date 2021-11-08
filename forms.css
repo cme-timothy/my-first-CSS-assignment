@@ -1,18 +1,18 @@
 .label-for-form {
-    display: block;
-    margin: 5px 0;
+  display: block;
+  margin: 5px 0;
 }
 
 .email-input {
-    display: block;
-    width: 200px;
+  display: block;
+  width: 200px;
 }
 
 textarea {
-    display: block;
+  display: block;
 }
 
 button {
-    display: block;
-    margin: 5px 0;
+  display: block;
+  margin: 5px 0;
 }
