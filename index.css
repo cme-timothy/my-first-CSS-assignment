@@ -1,3 +1,13 @@
+/* footer positioned at the bottom off the viewable screen */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 177.703px;
+}
+
 main {
   display: flex;
   flex-direction: column;
