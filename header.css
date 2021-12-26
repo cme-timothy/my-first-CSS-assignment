@@ -1,12 +1,53 @@
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   border-bottom: 1px solid;
+}
+
+h1 {
+  margin-left: 8px;
+}
+
+.main-menu {
+  display: none;
+}
+
+.hamburger-menu {
+  width: 30px;
+  margin-right: 8px;
+}
+
+.main-menu-visible {
+  background-color: #e664ab;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 45px;
+  right: 0;
+  left: 0;
+  padding: 50px;
+}
+
+.main-menu-visible li {
+  padding: 5px;
+  background-color: #e286b9;
+  margin-bottom: 2px;
+}
+
+.menu-arrow {
+  position: absolute;
+  top: -15px;
+  right: 8px;
+  transform: rotate(45deg);
+  background-color: #e664ab;
+  width: 30px;
+  height: 30px;
+
 }
 
 header ul {
@@ -39,5 +80,15 @@ header a:active {
 @media (min-width: 800px) {
   header {
     flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .main-menu {
+    display: block;
+  }
+  
+  .hamburger-menu {
+    display: none;
   }
 }
+
