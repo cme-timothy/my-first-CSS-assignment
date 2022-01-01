@@ -26,16 +26,35 @@ h2 {
   justify-content: center;
 }
 
-.carousel-image {
+.carousel-container-fullscreen {
   position: absolute;
-  opacity: 0;
-  align-self: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-color: black;
+  padding: 20px 0;
+}
+
+.carousel-images {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  display: none;
   max-width: 100%;
 }
 
-.carousel-image-show {
-  opacity: 1;
-  position: static;
+.image-show {
+  display: block;
+}
+
+.image-enlarged {
+  align-self: center;
+  max-height: 720.953px;
+  z-index: 2;
 }
 
 .buttons {
@@ -63,7 +82,7 @@ h2 {
   justify-content: center;
   left: 0;
   right: 0;
-  bottom: 0%;
+  bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -77,6 +96,10 @@ h2 {
 
 .indikator-on {
   background-color: #b77f00;
+}
+
+.element-hidden {
+  display: none;
 }
 
 /* for wider displays */
