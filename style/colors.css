@@ -24,9 +24,46 @@ header a:active {
   color: white;
 }
 
+.main-menu-visible {
+  background-color: #e664ab;
+}
+
+.main-menu-visible li {
+  background-color: #e286b9;
+}
+
+.menu-arrow {
+  background-color: #e664ab;
+}
+
 .picture-of-me {
   border-top-color: #bca5af;
   border-bottom-color: #bca5af;
+}
+
+.carousel-container-fullscreen {
+  background-color: black;
+}
+
+.buttons {
+  color: white;
+  background-color: black;
+}
+
+.buttons:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-indikators {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.indikator {
+  background-color: white;
+}
+
+.indikator-on {
+  background-color: #b77f00;
 }
 
 aside {

@@ -24,7 +24,6 @@ h1 {
 }
 
 .main-menu-visible {
-  background-color: #e664ab;
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -36,7 +35,6 @@ h1 {
 
 .main-menu-visible li {
   padding: 5px;
-  background-color: #e286b9;
   margin-bottom: 2px;
 }
 
@@ -45,10 +43,8 @@ h1 {
   top: -15px;
   right: 8px;
   transform: rotate(45deg);
-  background-color: #e664ab;
   width: 30px;
   height: 30px;
-
 }
 
 header ul {
@@ -87,9 +83,8 @@ header a:active {
   .main-menu {
     display: block;
   }
-  
+
   .hamburger-menu {
     display: none;
   }
 }
-

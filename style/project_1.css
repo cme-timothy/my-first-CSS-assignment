@@ -19,9 +19,9 @@ h2 {
   align-self: center;
 }
 
-.carousel-container{
+.carousel-container {
   position: relative;
-  display: flex ;
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
@@ -33,7 +33,6 @@ h2 {
   bottom: 0;
   left: 0;
   z-index: 1;
-  background-color: black;
   padding: 20px 0;
 }
 
@@ -59,17 +58,13 @@ h2 {
 
 .buttons {
   position: absolute;
-  font-size: 3rem;
   opacity: 0.5;
-  color: white;
-  background-color: black;
   border: none;
   padding-bottom: 0;
 }
 
 .buttons:hover {
   opacity: 1;
-  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .forward-button {
@@ -83,19 +78,13 @@ h2 {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .indikator {
-  background-color: white;
   border-radius: 100%;
   height: 20px;
   width: 20px;
   margin: 5px;
-}
-
-.indikator-on {
-  background-color: #b77f00;
 }
 
 .element-hidden {
