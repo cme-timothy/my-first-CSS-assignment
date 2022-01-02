@@ -1,3 +1,7 @@
+import {
+    imageDetailToggle,
+} from "./project_1.js";
+
 const buttons = $("button");
 let add = 1;
 buttons.click(function () {
@@ -15,6 +19,7 @@ buttons.click(function () {
         add--
         back(add);
     }
+    imageDetailToggle(document.querySelector(".image-show"));
 });
 
 function forward(number) {

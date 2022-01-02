@@ -1,19 +1,23 @@
 const body = document.querySelector("body");
-const image = document.querySelector(".image:first-child");
+let image = document.querySelector(".image-show");
 const container = document.querySelector(".carousel-container");
 const indikators = document.querySelector(".carousel-indikators");
 const back = document.querySelector(".back-button");
 const forward = document.querySelector(".forward-button");
 
-image.addEventListener("click", (event) => {
-    event.stopPropagation();
-    let imageShow = document.querySelector(".image-show");
-    imageShow.classList.add("image-enlarged");
-    container.classList.add("carousel-container-fullscreen");
-    indikators.classList.add("element-hidden");
-    back.classList.add("element-hidden");
-    forward.classList.add("element-hidden");
-});
+imageDetailToggle(image);
+
+function imageDetailToggle(imageChange) {
+    imageChange.addEventListener("click", (event) => {
+        event.stopPropagation();
+        let imageShow = document.querySelector(".image-show");
+        imageShow.classList.add("image-enlarged");
+        container.classList.add("carousel-container-fullscreen");
+        indikators.classList.add("element-hidden");
+        back.classList.add("element-hidden");
+        forward.classList.add("element-hidden");
+    });
+}
 
 body.addEventListener("click", () => {
     let imageShow = document.querySelector(".image-show");
@@ -34,3 +38,7 @@ document.addEventListener("keydown", (event) => {
         forward.classList.remove("element-hidden");
     }
 });
+
+export {
+    imageDetailToggle,
+};
