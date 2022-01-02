@@ -23,3 +23,14 @@ body.addEventListener("click", () => {
     back.classList.remove("element-hidden");
     forward.classList.remove("element-hidden");
 });
+
+document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+        let imageShow = document.querySelector(".image-show");
+        imageShow.classList.remove("image-enlarged");
+        container.classList.remove("carousel-container-fullscreen");
+        indikators.classList.remove("element-hidden");
+        back.classList.remove("element-hidden");
+        forward.classList.remove("element-hidden");
+    }
+});
